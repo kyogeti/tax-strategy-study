@@ -1,45 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efcba47c-df45-41ba-8daa-5eb69dbbea7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FuckingStrategy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaxStrategy/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaxStrategy/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaxStrategy/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaxStrategy/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaxStrategy/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TaxStrategy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Abstractions/ICalculableEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Abstractions/ICalculationStrategy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Abstractions/ICalculationStrategyResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Abstractions/ITaxCalculationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Enumerations/TaxType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Models/ApplicableTax.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Models/CalculationResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Models/IcmsRule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Services/TaxCalculationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Strategy/BaseStrategy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Strategy/BaseStrategyResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Strategy/Cofins/CofinsStrategy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Strategy/Cofins/CofinsStrategyResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Strategy/Icms/IcmsStrategy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Strategy/Icms/IcmsStrategyResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Strategy/Pis/PisStrategy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Strategy/Pis/PisStrategyResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/TaxStrategy.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxStrategy/Utils/DefaultTaxRateResolver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/Services/TaxCalculationServiceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/Strategy/Cofins/CofinsStrategyTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/Strategy/Icms/IcmsStrategyTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/Strategy/Pis/PisStrategyTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/Strategy/StrategyResolversTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/TaxStrategy.UnitTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/Usings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/Utils/DefaultTaxRateResolverTests.cs" afterDir="false" />
+    <list default="true" id="efcba47c-df45-41ba-8daa-5eb69dbbea7d" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/tests/TaxStrategy.UnitTests/Models/ProductTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FuckingStrategy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FuckingStrategy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaxStrategy.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/TaxStrategy.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +36,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -83,12 +49,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672515451987</updated>
-      <workItem from="1672515461989" duration="13616000" />
+      <workItem from="1672515461989" duration="14663000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1672531275718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672531275718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="347" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/269" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/269" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 100% 0/123" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/269" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 100% 0/123" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TaxStrategy 100% 0/123" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/269" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 100% 0/123" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TaxStrategy 100% 0/123" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="TaxStrategy 100% 0/123" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -106,5 +113,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
