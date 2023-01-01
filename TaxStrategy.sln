@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxStrategy", "TaxStrategy\TaxStrategy.csproj", "{A000C629-81A7-447B-B3C2-7A60D89C2611}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{540F0A1D-BC2A-4F93-9F2D-F867065211E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{36178D9D-DC1F-4E82-9827-F7511566B436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxStrategy.UnitTests", "tests\TaxStrategy.UnitTests\TaxStrategy.UnitTests.csproj", "{973BC8CF-23F3-4A07-A581-9878ACEAEFEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A000C629-81A7-447B-B3C2-7A60D89C2611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A000C629-81A7-447B-B3C2-7A60D89C2611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A000C629-81A7-447B-B3C2-7A60D89C2611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A000C629-81A7-447B-B3C2-7A60D89C2611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973BC8CF-23F3-4A07-A581-9878ACEAEFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973BC8CF-23F3-4A07-A581-9878ACEAEFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973BC8CF-23F3-4A07-A581-9878ACEAEFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973BC8CF-23F3-4A07-A581-9878ACEAEFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A000C629-81A7-447B-B3C2-7A60D89C2611} = {540F0A1D-BC2A-4F93-9F2D-F867065211E5}
+		{973BC8CF-23F3-4A07-A581-9878ACEAEFEB} = {36178D9D-DC1F-4E82-9827-F7511566B436}
+	EndGlobalSection
+EndGlobal
